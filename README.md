@@ -21,17 +21,17 @@ python3 server.py
 ```
 You will need a running postgres instance in order for this to work.
 
-#Inspiration
+# Inspiration
 Covid19 pandemic
 Traffic maps used by news agencies.
 
-#What it does
+# What it does
 SafeMaps is a platform that consists of a network of cameras installed in public spaces like parks and busy streets. Using computer visions, these cameras allow us to count the number of social distancing violations (maintaining a 6 feet distance between people) in real-time and log them in a database. This data is then displayed by a website that a user could check before making plans to determine the best places to enjoy the outdoors while also reducing the risk of exposure to COVID.
 
-#How we built it
+# How we built it
 We used OpenCV to process video inputs and send over the number of social distancing violations to a postgres db. This data is queried by the website and displayed to the user in a heatmap.
 
-#Challenges we ran into
+# Challenges we ran into
 Accounting for camera perspective in distance calculations
 Working with the google-maps-react API to get the heatmap displayed
 Accomplishments that we're proud of
